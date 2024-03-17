@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0 0;
     padding: 0 0;
@@ -7,7 +8,6 @@
 .header{
     width: 100%;
     height: 210px;
-    background-color: aquamarine;
 }
 /* header-top */
 .header-top{
@@ -118,14 +118,14 @@
     color: #646161;
     font-weight: 600;
 }
-.main, .main-2{
+.main, .main-2, .main-3{
     width: 100%;
     height: 390px;
     padding: 20px 170px 0px 170px;
     display: flex;
     color: white;
 }
-.main-left,.main-2-left{
+.main-left,.main-2-left, .main-3-left{
     height: 100%;
     flex:2;
 }
@@ -153,14 +153,14 @@
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    background-color: #ececec;
-    /* background-image: url(../../assets/images/anhTrongKN.png);
-    background-repeat: no-repeat;
-    background-position: 97.5px 20px;
-    background-size: 228px;
-    backdrop-filter: blur(5px); */
+    background-color: rgb(236,236,236);
     display: flex;
     flex-direction: column;
+    background-image: url(../../assets/images/trong.png);
+    background-repeat: no-repeat;
+    background-position: 531.5px 29px;
+    background-size: 850px;
+
 }
 .main-content-title{
     flex: 1;
@@ -250,7 +250,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.main-2-right{
+.main-2-right, .main-3-right{
     flex:1;
     padding-left: 12px;
 }
@@ -272,12 +272,24 @@
 
 .btn-right-1{
     background-color: rgb(234,0,1);
+    background-image: url(../../assets/images/trong.png);
+    background-repeat: no-repeat;
+    background-position: 336.5px -25px;
+    background-size: 323px;
 }
 .btn-right-2{
     background-color: #2485c9;
+    background-image: url(../../assets/images/trong.png);
+    background-repeat: no-repeat;
+    background-position: 336.5px -25px;
+    background-size: 323px;
 }
 .btn-right-3{
     background-color: #1fb00b;
+    background-image: url(../../assets/images/trong.png);
+    background-repeat: no-repeat;
+    background-position: 336.5px -25px;
+    background-size: 323px;
 }
 .main-right-button .main-right-icon{
     display: block;
@@ -355,7 +367,7 @@
 .main-1-btn-4,.main-1-btn-4 button{
     background-color: #a01a19;
 }
-.main-2{
+.main-2, .main-3{
     padding-top: 0;
     padding-bottom: 20px;
 }
@@ -409,5 +421,136 @@
     height: 100%;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.main-3-left{
+    background-color: #1b3b6e;
+    background-image: url(../../assets/images/anhTrong.jpg);
+    background-repeat: no-repeat;
+    background-position: -524.5px -690px;
+    background-size: 1718px;
+}
+.main-3-left .main-3-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.main-3-left-image{
+    display: block;
+    height: 100%;
+    width: 380px;
+    background-image: url(../../assets/images/1.png);
+    background-repeat: no-repeat;
+    background-position: 181px 62px;
+    background-size: 187px;
+}
+.main-3-left-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #89423e;
 
-
+}
+.main-3-left-text>p{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: emoji;
+}
+.main-3-left-text>p>span{
+    font-size: 64px;
+    font-family: 'Clicker Script', cursive;
+}
+.main-3-left-text>a{
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #89423e;
+}
+.main-3-right{
+    display: flex;
+    flex-direction: column;
+}
+.main-3-right-img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../assets/images/ctdbpjpg.jpg);
+    background-repeat: no-repeat;
+    background-position: 2px -166px;
+    background-size: 515px;
+}
+.main-3-right-img-2{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../assets/images/dothi.jpg);
+    background-repeat: no-repeat;
+    background-position: 2px -20px;
+    background-size: 515px;
+}
+.footer{
+    width: 100%;
+    height: 160px;
+    padding: 30px 170px;
+    display: flex;
+    background-color: rgb(234,0,1);
+    color: white;
+    background-image: url(../../assets/images/trong.png);
+    background-repeat: no-repeat;
+    background-position: 1229px -75px;
+    background-size: 526px;
+}
+.footer-left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.footer-right{
+    flex: 1;
+    padding-left: 12px;
+}
+.footer-left-content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.footer-left-content span{
+    font-size: 16px;
+    opacity: 0.9;
+}
+.footer-content-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content-left>h5{
+    padding: 6px 0px;
+}
+.footer-content-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content-right>p{
+    flex: 1;
+    padding: 13.5px 0px;
+}
+.footer-content-right>span{
+    flex: 1;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+}
+.footer-right .footer-right-icon{
+    width: 48px;
+    height: 48px;
+}
+.footer-right .footer-right-icon i{
+    font-size: 48px;
+}
+.footer-right p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+}
