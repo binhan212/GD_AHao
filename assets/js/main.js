@@ -29,7 +29,10 @@ option = {
         label: {
           show: true,
           fontSize: '12',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          font:{
+            family:"'Clicker Script', cursive"
+          }
         }
       },
       labelLine: {

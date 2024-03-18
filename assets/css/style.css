@@ -12,7 +12,7 @@
 /* header-top */
 .header-top{
     height: 150px;
-    background-color: rgb(234,0,1);
+    background-color: #a01a19;
     /* background-color: #7a1413; */
     display: flex;
 }
@@ -24,11 +24,13 @@
 .header-left-img1{
     width: 320px;
     height: 100%;
-    background-image: url(../../assets/images/anhTrongKN2.png);
+    background-image: url(../../assets/images/trong2.png);
     background-repeat: no-repeat;
-    background-position: -286.5px -18px;
-    background-size: 718px;
+    background-position: -346.5px -159px;
+    background-size: 764px;
 }
+
+
 .header-left-img2{    
     position: absolute;
     top: 50%;
@@ -140,7 +142,7 @@
     left: 0;
     padding: 0px 38px;
     font-size: 22px;
-    background-color: rgb(234,0,1);
+    background-color: #a01a19;
     color: white;
     font-weight: 600;
     border: none;
@@ -156,10 +158,10 @@
     background-color: rgb(236,236,236);
     display: flex;
     flex-direction: column;
-    background-image: url(../../assets/images/trong.png);
+    background-image: url(../../assets/images/trong1.png);
     background-repeat: no-repeat;
-    background-position: 531.5px 29px;
-    background-size: 850px;
+    background-position: 450.5px -1px;
+    background-size: 869px;
 
 }
 .main-content-title{
@@ -199,7 +201,7 @@
     display: block;
     height: 56px;
     width: 56px;
-    background-color: rgb(234,0,1);
+    background-color: #a01a19;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,8 +234,10 @@
     background-color: rgb(47, 106, 151);
     cursor: pointer;
     transition: transform 0.3s ease; 
-
-
+}
+.main-content-btn a{
+    text-decoration: none;
+    color: white;
 }
 .main-content-button .main-content-btn:hover{
     transform: scale(1.05);
@@ -271,7 +275,7 @@
 }
 
 .btn-right-1{
-    background-color: rgb(234,0,1);
+    background-color: #a01a19;
     background-image: url(../../assets/images/trong.png);
     background-repeat: no-repeat;
     background-position: 336.5px -25px;
@@ -305,6 +309,18 @@
     font-size: 48px;
     color: white;
 }
+.main-right-text{
+    flex:1;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-right-text a{
+    text-decoration: none;
+    color: white;
+}
 .main-1{
     width: 100%;
     height: 198px;
@@ -322,11 +338,11 @@
     padding: 0px 60px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    position: relative;
 }
 .main-1-btn:hover{
     cursor: pointer;
     transform: scale(1.05);
-
 }
 .btn-cut-start{
     margin-left: 0px;
@@ -352,20 +368,66 @@
     color: white;
     font-weight: 500;
 }
+.main-1-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.button-icon{
+    display: inline-block;
+    margin-right: 10px;
+    position: absolute;
+    top: 16px;
+    left: -5px;
+    border-top: 42px solid transparent;
+    border-bottom: 42px solid transparent;
+    z-index: 1;
+}
+.button-icon-2{
+   display: inline-block;
+    margin-right: 10px;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    border-top: 42px solid transparent;
+    border-bottom: 42px solid transparent;
+    border-left: 35px solid white;
+    z-index: 0;
+}
 .main-1-btn-1,.main-1-btn-1 button{
-    background-color: #f25d0d;
+    background-color: #1fb00b;
 }
 .main-1-btn-2,.main-1-btn-2 button{
     background-color: #1b3b6e;
-
+}
+.main-1-btn-2 .button-icon{
+    border-left: 35px solid #1b3b6e;
 }
 
 .main-1-btn-3,.main-1-btn-3 button{
     background-color: #592e75;
     
 }
+.main-1-btn-3 .button-icon{
+    border-left: 35px solid #592e75;
+}
+
 .main-1-btn-4,.main-1-btn-4 button{
     background-color: #a01a19;
+}
+.main-1-btn-4 .button-icon{
+    border-left: 35px solid #a01a19;
+}
+.main-1-btn:hover .button-icon{
+    display: inline-block;
+    margin-right: 10px;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    border-top: 42px solid transparent; 
+    border-bottom: 42px solid transparent;
+    transition: all 0.3s ease;
 }
 .main-2, .main-3{
     padding-top: 0;
@@ -491,7 +553,7 @@
     height: 160px;
     padding: 30px 170px;
     display: flex;
-    background-color: rgb(234,0,1);
+    background-color: #a01a19;
     color: white;
     background-image: url(../../assets/images/trong.png);
     background-repeat: no-repeat;
