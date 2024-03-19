@@ -24,7 +24,7 @@
 .header-left-img1{
     width: 320px;
     height: 100%;
-    background-image: url(../../assets/images/trong2.png);
+    background-image: url(../../assets/images/anhTrongKN.png);
     background-repeat: no-repeat;
     background-position: -346.5px -159px;
     background-size: 764px;
@@ -37,10 +37,10 @@
     transform: translateY(-50%);
     width: 320px;
     height: 100%;
-    background-image: url(../../assets/images/anhCo.png);
+    background-image: url(../../assets/images/bh.png);
     background-repeat: no-repeat;
-    background-position: 97.5px 20px;
-    background-size: 228px;
+    background-position: 118.5px 8px;
+    background-size: 205px;
 }
 .header-top-right{
     width: calc(50% - 320px);
